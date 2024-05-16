@@ -1,0 +1,52 @@
+.everyone-holidays-section .card {
+  height: 200px;
+}
+
+.everyone-holidays-section .card:hover {
+  cursor: pointer;
+}
+
+.everyone-holidays-section .row .col-md-6:first-of-type .image-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../Assets/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg");
+}
+
+.everyone-holidays-section .row .col-md-6:nth-of-type(2) .image-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../Assets/sasha-kaunas-xEaAoizNFV8-unsplash.jpg");
+}
+
+.everyone-holidays-section .row .col-md-6:nth-of-type(3) .image-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../Assets/willian-justen-de-vasconcellos-g5FyZvIzUS4-unsplash.jpg");
+}
+
+.everyone-holidays-section .row .col-md-6:nth-of-type(4) .image-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../Assets/ben-o-bro-wpU4veNGnHg-unsplash.jpg");
+}
+
+.everyone-holidays-section .row .col-md-6:nth-of-type(5) .image-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../Assets/oswald-elsaboath-ym_EI-DTS1g-unsplash.jpg");
+}
+
+.everyone-holidays-section .row .col-md-6:last-of-type .image-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../Assets/patrick-robert-doyle-QOuV-iMpL_w-unsplash.jpg");
+}
+
+.everyone-holidays-section .image-div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.everyone-holidays-section .price {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 576px) {
+  .everyone-holidays-section .card {
+    height: 300px;
+  }
+}

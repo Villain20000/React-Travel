@@ -1,0 +1,31 @@
+.destinations-page .second-hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(../../Assets/destinations.jpeg);
+}
+.destinations-page .holiday-plan-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../../Assets/santorini.webp");
+}
+.destinations-page .recommended-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../../Assets/wtg-group-2.jpg");
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  .bg-shape {
+    height: 450px;
+  }
+  .col-md-6 {
+    margin-top: 105px;
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .destinations-page .recommended-section {
+    height: 250px;
+    font-size: 16px;
+  }
+  .destinations-page .recommended-section .bg-shape {
+    display: none;
+  }
+}

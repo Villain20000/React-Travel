@@ -1,0 +1,25 @@
+.favourites-section .spa-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/alex-bertha-Jyg7xHRmXiU-unsplash.jpg);
+}
+.favourites-section .pool-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/dim-hou-h8wLc3lbDuA-unsplash.jpg);
+}
+.favourites-section .pet-friendly-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/josh-hild-3p7jwi7FmZw-unsplash.jpg);
+}
+.favourites-section .all-inclusive-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/ran-berkovich-MtvmcxQY7EM-unsplash.jpg);
+}
+.favourites-section .spa-div,
+.favourites-section .pool-div,
+.favourites-section .pet-friendly-div,
+.favourites-section .all-inclusive-div {
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,13 @@
+@import "../../App.scss"; // Ensure this path is correct based on your project structure
+
+#green-btn {
+  background-color: $primary-bg-color;
+  border: 0px solid $primary-bg-color;
+  padding: 10px;
+}
+#green-btn {
+  &:hover {
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+  }
+}

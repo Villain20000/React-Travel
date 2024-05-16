@@ -1,0 +1,22 @@
+@import "../../App.scss";
+
+.need-inspiration-section {
+  background-size: cover;
+  background-position: center;
+}
+
+.need-inspiration-section .bg-shape {
+  width: 50%;
+  background-color: $secondary-bg-color; // Ensure this variable is defined in your imported SCSS files
+  background-size: cover;
+  position: absolute; // Ensuring that bg-shape is absolutely positioned
+  bottom: 0;
+  top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .need-inspiration-section .bg-shape {
+    // Corrected the selector to target .bg-shape within .need-inspiration-section
+    width: 100%;
+  }
+}

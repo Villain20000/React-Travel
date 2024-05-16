@@ -1,0 +1,59 @@
+.carousel-item1 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../../Assets/dariusz-sankowski-3OiYMgDKJ6k-unsplash.jpg);
+}
+.carousel-item2 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../../Assets/diego-jimenez-A-NVHPka9Rk-unsplash.jpg);
+}
+.carousel-item3 {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../../Assets/drif-riadh-YpkuRn54y4w-unsplash.jpg);
+}
+
+.carousel-item1,
+.carousel-item2,
+.carousel-item3 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 992px) {
+  .carousel-item1 {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../../Assets/dariusz-sankowski-3OiYMgDKJ6k-unsplash.jpg);
+  }
+  .carousel-item2 {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../../Assets/diego-jimenez-A-NVHPka9Rk-unsplash.jpg);
+  }
+  .carousel-item3 {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../../Assets/drif-riadh-YpkuRn54y4w-unsplash.jpg);
+  }
+}

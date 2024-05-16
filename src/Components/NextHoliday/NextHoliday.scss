@@ -1,0 +1,50 @@
+.next-holiday-section .card {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+.next-holiday-section .card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.next-holiday-section .card h5 {
+  font-size: 2rem;
+}
+
+.next-holiday-section .row .col-md-6:first-of-type .card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/sean-oulashin-KMn4VEeEPR8-unsplash.jpg);
+}
+.next-holiday-section .row .col-md-6:nth-of-type(2) .card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/shutterstock_1656628171v2-2107x1406.jpg);
+}
+.next-holiday-section .row .col-md-6:nth-of-type(3) .card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/topic-london-gettyimages-760251843-feature.jpg);
+}
+.next-holiday-section .row .col-md-6:nth-of-type(4) .card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/eiffel-tower-in-paris-151-medium.jpg);
+}
+.next-holiday-section .row .col-md-6:nth-of-type(5) .card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/7f6b3cf0-f585-11e8-a5a3-0242ac110006.webp);
+}
+.next-holiday-section .row .col-md-6:nth-of-type(6) .card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/shutterstock_1656628171v2-2107x1406.jpg);
+}
+.next-holiday-section .row .col-md-6:nth-of-type(7) .card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/wonders-egypt-guided-tour-13.webp);
+}
+.next-holiday-section .row .col-md-6:nth-of-type(8) .card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/Things_to_do_in_turkey_1_.png);
+}
+.next-holiday-section .row .col-md-6:last-of-type .card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/mal1.jpg);
+}

@@ -1,0 +1,71 @@
+@import "../../App.scss"; // Ensure this path is correct based on your project structure
+
+// Adjust the navbar branding alignment
+.navbar-brand {
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 20px; // Control the logo height
+    margin-right: 0.5rem; // Space between the logo and text
+    filter: invert(100%); // Inverts the color to white
+    transform: rotate(45deg); // Rotate the logo
+    width: 1.5rem; // Set the width of the logo
+  }
+}
+
+// Navbar toggler adjustments
+.navbar-toggler {
+  border-color: white; // Correctly specified the border color for the toggler
+
+  .navbar-toggler-icon {
+    filter: invert(100%); // Ensures the toggler icon is white
+  }
+}
+
+// Media query for smaller screens
+@media screen and (max-width: 576px) {
+  .navbar {
+    background-color: var(--secondary-bg-color); // Corrected variable name
+  }
+}
+
+// Brand link styles
+.brand-link {
+  display: flex;
+  align-items: center;
+  color: white;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+// Ensuring vertical alignment of navbar items
+.nav-link {
+  display: flex;
+  align-items: center;
+  height: 100%; // Make the link fill the navbar height
+  color: #fff; // Ensures the text color is white
+}
+
+// Sign In Button - make it consistent with the navbar style
+.sign-in-button {
+  background-color: #fff; // Match navbar background
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Subtle shadow
+
+  .sign-in-link {
+    color: #00892e; // Use secondary color for text
+    padding: 8px 16px; // Padding for better button shape
+    display: block;
+  }
+}
+
+// General navbar enhancements
+.navbar {
+  padding: 15px;
+  background-color: $primary-bg-color; // Use the variable
+}
